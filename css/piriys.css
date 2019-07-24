@@ -97,7 +97,7 @@ header.hero {
     font-size: 0.5em;
 }
 
-@media only screen and (max-width: 800px) {
+@media (orientation: portrait) {
     .contact {
         flex-direction: column;
         width: 100%;
