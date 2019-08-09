@@ -44,6 +44,10 @@ a {
     font-weight: bold;
 }
 
+a:hover {
+    color: #FFFFFF;
+}
+
 /*Specific sections*/
 body,
 html {
@@ -94,16 +98,16 @@ header.hero {
 }
 
 .contact li {
-    font-size: 0.5em;
+    font-size: 4vh;
 }
 
 @media (orientation: portrait) {
     .contact {
         flex-direction: column;
-        width: 100%;
+        justify-content: center;
     }
     .contact li {
-        min-height: 50px;
+        height: 10vh;
         text-align: center;
     }
 }
